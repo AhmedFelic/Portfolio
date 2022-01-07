@@ -15,16 +15,47 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 30px;
   background-color: white;
   text-transform: uppercase;
   text-decoration: none;
   z-index: 1;
+
+  border-bottom: 2px solid #f5f5f6;
+}
+.back_btn {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  margin-top: 80vh;
+  margin-left: 95%;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #06f;
+  z-index: 1;
+}
+.back_btn:hover {
+  background-color: #06f;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .main_header a {
   padding-right: 10px;
+  color: #555555;
 }
+.main_header a:hover {
+  color: #28a7f0;
+}
+/*.main_header a:active {
+  text-decoration: underline; POPRAVITI OVO, MOZDA I JS TREBA?
+  color: #28a7f0;
+}*/
 ::-webkit-scrollbar {
   width: 20px;
+}
+.headera {
+  margin: auto auto;
 }
 ::-webkit-scrollbar-track {
   background: #f5f5f5;
@@ -47,7 +78,7 @@ main {
 }
 .O_meni {
   font-size: 24px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .slika_laptop {
@@ -96,7 +127,7 @@ main {
 }
 .radovi {
   height: 100vh;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .wrapper {
@@ -123,8 +154,14 @@ main {
   margin-left: 13px;
   border-radius: 5%;
 }
+.wrapper .item {
+  text-decoration: none;
+}
 .wrapper .item:hover {
   background-color: white;
+}
+.item1 {
+  text-decoration: none;
 }
 .O_meni {
   width: 975px;
@@ -132,7 +169,7 @@ main {
 }
 .iskustvo {
   height: 100vh;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 .linija1 {
   width: 90%;
@@ -203,6 +240,6 @@ footer {
   float: left;
   width: 75vh;
   text-align: justify;
-  padding-top: 100px;
+  padding-top: 70px;
   font-size: 20px;
 }
