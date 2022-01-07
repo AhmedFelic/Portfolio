@@ -6,24 +6,36 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=latin-ext" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src='main.js'></script>
+    
+    <script defer type="text/javascript" src="script.js"></script>
 </head>
 
 <body id="bdy">
-    <header class="mainh main_header">
-      <div class="headera">
-        <a  href="#bdy">home</a>
-        <a href="#O_meni1">about me</a>
-        <a href="#Radovi1">projects</a>
-        <a href="#Iskustvo1">experience</a>
-        <a href="#Kontakt1">Contact</a> 
+ 
+<section>
+  <header class="mainh main_header">
+  <div class="headera">
+    <a  href="#bdy" >home</a>
+    <a href="#O_meni1" >about me</a>
+    <a href="#Radovi1">projects</a>
+    <a href="#Iskustvo1">experience</a>
+    <a href="#Kontakt1">Contact</a> 
 
-      </div>
-        
-    </header>
+  </div>
+  
+</header>
+</section>
+    
     <a href="#bdy"><button class="back_btn"><i class="fas fa-chevron-up"></i></button></a>
+    <div class="loader_wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+  </div>
     <main>
      
+     <section>
+     
+
+
       <div  id="pocetna" class="slika">
         <div class="child">
           <img class="avatar" src="slike/avatar.png">
@@ -33,87 +45,102 @@
         
        
       </div>
-      
-      <div class="slika1">
-        <img class="slika_laptop" src="slike/7d25.gif">
-      </div>
-      <div id="O_meni1" class="O_meni">
-        
-          <h2 class="tekst2">About me</h2>  
-         
-          <div class="tekst1">
+
+     </section>
+    
+      <section>
+        <div class="slika1">
+          <img class="slika_laptop" src="slike/7d25.gif">
+        </div>
+        <div id="O_meni1" class="O_meni">
+          
+            <h2 class="tekst2">About me</h2>  
+           
+            <div class="tekst1">
+              
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <br>
+            <br>
+            <p><b>Interests: </b>Lorem ipsum</p>
             
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <p><b>Degree: </b>Lorem ipsum</p>
+            
+           </div> 
+        </div>
+
+      </section>
+      
+      <section>
+        <div id="Radovi1" class="radovi">
+          <h2 class="wrk">My projects: </h2>
+            
+            <div class="wrapper">
+                <a class="item1" href=""> <div class="item">1</div></a>
+                <a class="item1" href=""> <div class="item">2</div></a>
+                <a class="item1" href=""> <div class="item">3</div></a>
+                <a class="item1" href=""> <div class="item">4</div></a>
+                <a class="item1" href=""> <div class="item">5</div></a>
+                <a class="item1" href=""> <div class="item">6</div></a>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div id="Iskustvo1" class="iskustvo">
+          <h2>My (in)experience</h2>
+          <p class="left_al_tekst"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
-          <br>
-          <br>
-          <p><b>Interests: </b>Lorem ipsum</p>
           
-          <p><b>Degree: </b>Lorem ipsum</p>
+          <div class="floatr">
+          <p class="tekst3">HTML</p>
+          <div class="progres"> 
+            <div class="linija1">
+            </div>
+          </div>
+          <p class="tekst3">CSS</p>
+          <div class="progres"> 
+            <div class="linija2">
+            </div>
+          </div>
+          <p class="tekst3">JS</p>
+          <div class="progres"> 
+            <div class="linija3">
+            </div>
+          </div>
+          <p class="tekst3">BootStrap</p>
+          <div class="progres"> 
+            <div class="linija4">
+            </div>
+          </div>
           
-         </div> 
-      </div>
+        </div>
+       
+        </div>
+        <hr>
+      </section>
       
       
-      <div id="Radovi1" class="radovi">
-        <h2 class="wrk">My projects: </h2>
-          
-          <div class="wrapper">
-              <a class="item1" href=""> <div class="item">1</div></a>
-              <a class="item1" href=""> <div class="item">2</div></a>
-              <a class="item1" href=""> <div class="item">3</div></a>
-              <a class="item1" href=""> <div class="item">4</div></a>
-              <a class="item1" href=""> <div class="item">5</div></a>
-              <a class="item1" href=""> <div class="item">6</div></a>
-          </div>
-      </div>
-      <div id="Iskustvo1" class="iskustvo">
-        <h2>My (in)experience</h2>
-        <p class="left_al_tekst"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </p>
-        
-        <div class="floatr">
-        <p class="tekst3">HTML</p>
-        <div class="progres"> 
-          <div class="linija1">
-          </div>
-        </div>
-        <p class="tekst3">CSS</p>
-        <div class="progres"> 
-          <div class="linija2">
-          </div>
-        </div>
-        <p class="tekst3">JS</p>
-        <div class="progres"> 
-          <div class="linija3">
-          </div>
-        </div>
-        <p class="tekst3">BootStrap</p>
-        <div class="progres"> 
-          <div class="linija4">
-          </div>
-        </div>
-        
-      </div>
-     
-      </div>
-      <hr>
     </main>
     <footer id="Kontakt1">
       <div class="kontakt_forma">
         <h2>Contact</h2>
-        
+        <div class="ikone">
           <a href=""><i class="fab fa-facebook fa-lg"></i></a>
           <a href=""><i class="fab fa-linkedin fa-lg"></i></a>
           <a href=""><i class="fas fa-envelope-square fa-lg"></i></a>
-          <a href=""><i class="fab fa-instagram fa-lg"></i></a>  
+         
+
+        </div>
+       
           
        
-        <p><b>Email:</b> ahmedfelic@hotmail.com</p>
+        <p class="mail"><b>Email:</b> ahmedfelic@hotmail.com</p>
        
       </div>
        
     </footer>
+    
+    
 </body>
 </html>
