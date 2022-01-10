@@ -5,6 +5,7 @@ window.addEventListener('load', function(){
     loader_wrapper.style.display='none';
 });
 
+
 let = tabs = document.querySelectorAll('.tabs_toggle'),
     contents = document.querySelectorAll('.tabs_content');
    
@@ -20,3 +21,8 @@ let = tabs = document.querySelectorAll('.tabs_toggle'),
             tabs[index].classList.add('is-active');
         });
     });
+
+    // E ovo je moje 
+    function myFunction() {
+        document.getElementById('bdy').scrollIntoView();
+      };

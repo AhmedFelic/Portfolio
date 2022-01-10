@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  padding: 0;
+  padding-top: 20px;
   margin: 0;
 }
 main {
@@ -242,13 +242,7 @@ footer {
 .kontakt_forma i:hover {
   color: blue;
 }
-/*.left_al_tekst {
-  float: left;
-  width: 75vh;
-  text-align: justify;
-  padding-top: 70px;
-  font-size: 20px;
-}*/
+
 /*Loader is not mine!*/
 .loader_wrapper {
   width: 100%;
