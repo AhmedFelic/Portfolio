@@ -18,7 +18,7 @@ main {
   height: 30px;
   background-color: white;
   text-transform: uppercase;
-  text-decoration: none;
+
   z-index: 1;
   border-bottom: 2px solid #f5f5f6;
 }
@@ -55,6 +55,7 @@ main {
 .headera {
   margin: auto auto;
 }
+
 ::-webkit-scrollbar-track {
   background: #f5f5f5;
   border-radius: 10px;
@@ -98,6 +99,7 @@ main {
 .main_header a {
   text-decoration: none;
   padding-left: 20px;
+  transition: 0.3s;
 }
 .slika {
   height: 100vh;
