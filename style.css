@@ -185,13 +185,13 @@ main {
   height: 7px;
 }
 .linija3 {
-  width: 60%;
+  width: 65%;
   background-color: black;
 
   height: 7px;
 }
 .linija4 {
-  width: 45%;
+  width: 55%;
   background-color: black;
 
   height: 7px;
@@ -202,6 +202,30 @@ main {
   background-color: #aaa;
   overflow: hidden;
 }
+.procenat {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.procenat1 {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.procenat2 {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.procenat3 {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
 .floatr {
   padding-top: 20px;
   float: right;
@@ -210,6 +234,7 @@ main {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 footer {
   height: 100px;
